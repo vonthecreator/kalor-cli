@@ -1,6 +1,6 @@
 {
   "name": "kalor-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract colors from jpeg images into scss file, right from the CLI",
   "main": "kalor.js",
   "scripts": {
