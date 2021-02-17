@@ -29,16 +29,18 @@ const options = {
 
 
 function exportColors(pallet) {
- fs.createWriteStream(__dirname + '/pallets/kalor.scss', (err) => {
+ let file = fs.createWriteStream(__dirname + '/output/kalor.scss', (err) => {
   if (err){
    console.error(err)
    return
   }
-  pallet.forEach(function(color) {
-   file.write(color);
-  });
-  file.end();
  })
+
+ pallet.forEach(function(color) {
+  file.write(color)
+ });
+
+ file.end();
 }
 
 
@@ -75,23 +77,3 @@ switch(process.argv[3]){
  default:
   kalor(process.argv[2].toString())
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

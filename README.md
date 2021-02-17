@@ -9,7 +9,7 @@ Specs:
 
 
 ## Usage
-`kalor <cat_image.jpg>`
+`kalor </test-data/dog_image.jpg>`
 
 
 
