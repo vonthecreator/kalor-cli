@@ -1,24 +1,16 @@
-# Kalor-cli 
+# Kalor-cli
 
 
 Extract colors from `jpg` images right from the the cli.
 
 
-Specs: 
+Specs:
 * Will only generate a maximum of 255 colors
 
-`kalor <cat_image.jpg> scss`
-`kalor <cat_image.jpg> csv`
 
-Output:
-
- 1. `.SCSS` file
- 2. `CSS` file
-
+## Usage
+`kalor <cat_image.jpg>`
 
 
 
 Dependecies:
-
-`color`
-`inver-color`

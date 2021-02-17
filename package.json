@@ -1,0 +1,31 @@
+{
+  "name": "kalor-cli",
+  "version": "1.0.0",
+  "description": "Extract colors from jpeg images into scss file, right from the CLI",
+  "main": "kalor.js",
+  "scripts": {
+    "test": "kalor test-data/test.jpg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munazhe/kalor-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "sass",
+    "stylesheet",
+    "generate",
+    "jpeg",
+    "photography",
+    "colors",
+    "design",
+    "front-end",
+    "ui"
+  ],
+  "author": "munazhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munazhe/kalor-cli/issues"
+  },
+  "homepage": "https://github.com/munazhe/kalor-cli#readme"
+}
